@@ -68,10 +68,10 @@ FROM Subscriptions;
 Objective: The Final Power BI Dashboard visualizes customer insights, such as popular subscription types & subscription trends, demographic segmentation, and cancellations. This information will, therefore, help optimize marketing efforts, reduce cancellations, and enhance customer retention strategies.
 
 - Dashboard Elements:
- - Customer Demographics (Pie Chart for region and subscription type).
- - Subscription Duration Distribution (Histogram).
- - Cancellation Trends (Line Chart of cancellations over time).
- - Active vs. Canceled Subscriptions (Donut Chart).
+  1. Customer Demographics (Pie Chart for region and subscription type).
+  2. Subscription Duration Distribution (Histogram).
+  3. Cancellation Trends (Line Chart of cancellations over time).
+  4. Active vs. Canceled Subscriptions (Donut Chart).
 
 
 - Key Metrics and Visuals:
