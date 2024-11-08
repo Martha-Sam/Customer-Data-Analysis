@@ -1,3 +1,59 @@
+# PROJECT 1
+## Retail Store Sales Performance Analysis
+### Project Overview
+This project focuses on analyzing the sales performance of a retail store using a combination of Excel, SQL, and Power BI to uncover key insights into product performance, regional sales trends, and customer purchasing behaviors. By leveraging data analysis techniques and visualization tools, I was able to transform raw sales data into actionable insights for the retail business. This analysis is therefore a comprehensive exploration of sales data aimed at optimizing product offerings, improving regional strategies, and enhancing customer engagement.
+____________
+### Objective
+The primary objective of this project is to perform a thorough analysis of the retail store's sales data and:
+- Identify top-selling products in optimizing inventory management.
+- Analyze sales performance by region to refine marketing strategies.
+- Understand monthly sales patterns to drive better forecasting.
+- Uncover key trends in customer behavior to boost sales and profitability.
+- Develop an interactive Power BI dashboard to visualize these insights for stakeholders, enabling data-driven decision-making.
+---
+### Data Source
+The dataset for this analysis was provided by **The Incubator Hub** as part of a data analysis training program. The sales data encompassed a wide range of information related to retail transactions, allowing for an in-depth analysis of sales performance and customer behavior.
+
+#### Data Characteristics
+The dataset contained the following key columns:
+- OrderId: This is a unique identifier for each transaction.
+- CustomerID: This is a unique identifier for each customer, enabling customer-level analysis.
+- Products: These are the names of the products sold.
+- Regions: These are the geographical regions where sales were made, helping identify regional performance.
+- Order Date: This is the date when the order was placed, allowing for time-series analysis.
+- Quantities: These are the quantity of products purchased in each transaction.
+- Unit Price: This is the selling price of each product unit.
+- Revenue: This is the total revenue generated for each transaction (calculated as `Quantities * Unit Price`).
+  
+These characteristics therefore enabled me to conduct a detailed analysis of sales trends, customer behaviors, and regional performance on the dataset.
+_________
+### Tools Used
+1. Microsoft Excel
+
+Excel was used for the initial data cleaning, exploration, and preliminary analysis. The following steps were performed:
+* Data Cleaning: Removed duplicates and handled missing values to ensure data integrity.
+* Basic Calculations: Used formulas such as SUMIF and AVERAGEIFS to calculate key metrics like total revenue by region and average sales by product
+  
+`=SUMIF($D$2:$D$9922,"north",$H$2:$H$9922)`
+`=SUMIF($D$2:$D$9922,"EAST",$H$2:$H$9922)`
+`=AVERAGEIF($C$2:$C$9922,"HAT",$H$2:$H$9922)`
+`=AVERAGEIF($C$2:$C$9922,"JACKET",$H$2:$H$9922)`
+
+![SalesData metrics](https://github.com/user-attachments/assets/f8239a43-c730-4ff9-a29e-0919ed4b29d0)
+
+* Pivot Tables: Created pivot tables to generate reports on:
+  - Total sales by Product.
+  - Sales distribution by Region.
+  - Monthly sales trends and some other reports.
+    
+![Sales Pivot A](https://github.com/user-attachments/assets/7084fe0e-8552-4506-a727-770303cae1f6)
+
+ ![Sales Pivot B](https://github.com/user-attachments/assets/09e74388-d332-4b77-8bb0-582d467cd6f7)
+
+These analyses generated show a summarized report to identify the highest-performing product, regional sales trends, monthly performance, and some other relevant insight into the retail store.
+
+
+
 # Customer-Data-Analysis
 ### Overview
 The Customer Data Analysis aims to understand customer behavior, track subscription types, and identify patterns in cancellations and renewals. This analysis combines demographic segmentation with an examination of subscription trends.
