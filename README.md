@@ -28,7 +28,7 @@ The dataset contained the following key columns:
 These characteristics therefore enabled me to conduct a detailed analysis of sales trends, customer behaviors, and regional performance on the dataset.
 _________
 ### Tools Used
-1. Microsoft Excel
+1. **Microsoft Excel**
 
 Excel was used for the initial data cleaning, exploration, and preliminary analysis. The following steps were performed:
 * Data Cleaning: Removed duplicates and handled missing values to ensure data integrity.
@@ -53,7 +53,7 @@ Excel was used for the initial data cleaning, exploration, and preliminary analy
 These analyses generated show a summarized report to identify the highest-performing product, regional sales trends, monthly performance, and some other relevant insight into the retail store.
 
 
-2. SQL
+2. **SQL**
 
 SQL was used to perform deeper data analysis by running structured queries to extract key insights. The following SQL queries were written:
 
@@ -109,7 +109,7 @@ vi. Products with No Sales in the Last Quarter: This query flagged products that
 	)
 ```
 
-3. Power BI
+3. **Power BI**
 
 Power BI was utilized to create an interactive dashboard that visualizes the insights found in Excel and SQL analyses. The dashboard includes:
 
@@ -119,7 +119,11 @@ Power BI was utilized to create an interactive dashboard that visualizes the ins
 - Monthly Trends: Line charts showing how sales fluctuate throughout the year.
 Interactive Filters: Slicers for dynamic exploration of data by product category, region, and time period.
 
+<img width="580" alt="PowerBI Sales Dashboard" src="https://github.com/user-attachments/assets/8e14755b-d55b-4198-ad05-5073cfbce86c">
 
+------
+
+# PROJECT 2
 # Customer-Data-Analysis
 ### Overview
 The Customer Data Analysis aims to understand customer behavior, track subscription types, and identify patterns in cancellations and renewals. This analysis combines demographic segmentation with an examination of subscription trends.
